@@ -1,586 +1,466 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#000000">
-    <meta property="fb:app_id" content="">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="nome do produto">
-    <meta property="og:description" content="">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Dosis:wght@200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/com.css">
+
+    <!-- Título da Página -->
     <title>Protocolo Visão Cristalina</title>
-
-    <link rel="stylesheet" href="bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="pv2/css/style2.css?v=1">
-    <link href="pv2/css/animate.css" rel="stylesheet">
-    <link rel="stylesheet" href="ajax/libs/noty/3.1.4/noty.min.css">
-    <link href="pv2/css/themes/mint.css" rel="stylesheet">
-    <link href="pv2/css/ripple.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="pv2/css/sweetalert2.css">
-    <style>
-        body {
-            background-color: #fff;
-        }
-
-        @media only screen and (max-width: 480px) {
-            body {
-                background-image: url(pv2/img/bg2.jpg);
-                background-repeat: no-repeat;
-                background-size: contain;
-                background-position-x: center;
-            }
-        }
-
-        h1.title {
-            font-size: 1.5rem;
-            color: #2f2f2f;
-        }
+    
+    <style type="text/css">
+      header {
+        color: white;
+        background-image: url("assets/img/bg.jpg");
+        background-color: rgba(0, 0, 0, 0);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-blend-mode: darken;
+      }
     </style>
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-XXXXXX');</script>
-    <!-- End Google Tag Manager -->
-</head>
-
-<body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXX" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <section id="navbar">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    Você e algumas pessoas próximas <b class="yellow"><span id="locationJS"></span></b> foram selecionados para participar deste programa.
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="hero">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    <img src="pv2/img/ultrasecreto2.svg" class="ultrasecreto">
-                </div>
-            </div>
-            <div class="d-flex justify-content-center" style="margin-bottom: 20px">
-                <h1 class="title"></h1>
-                <div class="som text-dark"> <img src="pv2/img/audio.svg"> Certifique-se de que seu som está ligado!</div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="my-4">
-                        <div id="vid_62b5d482072e14000a1d3ffb" style="position:relative;width:100%;padding: 56.28997867803838% 0 0;"><img id="thumb_62b5d482072e14000a1d3ffb" src="https://images.converteai.net/a5be3ce2-68c5-4cec-af81-04414f0838b8/players/62b5d482072e14000a1d3ffb/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_62b5d482072e14000a1d3ffb" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_62b5d482072e14000a1d3ffb">var s=document.createElement("script");s.src="https://scripts.converteai.net/a5be3ce2-68c5-4cec-af81-04414f0838b8/players/62b5d482072e14000a1d3ffb/player.js",s.async=!0,document.head.appendChild(s);</script>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-
-                    </div>
-                </div>
-                <div class="row button_container" id="button_chechout_hero">
-                    <div class="col">
-                        <button type="button" data-ripple-color="#fff" class="btn material-ripple" data-animation="
-              ripple" onclick="redirect()">Quero ter acesso ao Protocolo Visão Cristalina</button>
-                        <div>
-                            <ul class="bandeiras">
-                                <li><img src="pv2/img/mastercard.png"></li>
-                                <li><img src="pv2/img/paypal.png"></li>
-                                <li><img src="pv2/img/visa.png"></li>
-                                <li><img src="pv2/img/american.png"></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </section>
-    <section class="c-section">
-        <div class="container" id="c-container">
-            <div class="row count-c">
-                <div clas="col">
-                    24 Comentarios
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="c-content">
-                        <div>
-                            <div class="foto-c">
-                                <img src="pv2/img/comentarios/m/1.jpg" alt="ganando la mente">
-                            </div>
-                            <div class="nome-c">
-                                Debora Mattos disse:
-                            </div>
-                            <div class="comentario-c">
-                                Realmente me ajudou muito, estou melhor graças a vocês!
-                            </div>
-                        </div>
-                        <div class="hora-c">
-                            Responder · Curtir · Seguir · 3 min
-                        </div>
-                    </div>
-                    <div class="c-content">
-                        <div>
-                            <div class="foto-c">
-                                <img src="pv2/img/comentarios/m/19.jpg" alt="ganando la mente">
-                            </div>
-                            <div class="nome-c">
-                                Edineia Souza disse:
-                            </div>
-                            <div class="comentario-c">
-                                Hoje posso dizer que estou liberta, eu me sentia mal por não poder ver o rosto das pessoas, hoje posso ver o rosto da minha mãe, da minha filha, do meu marido e de todos ao meu redor, é uma felicidade sem tamanho!!!
-                            </div>
-                        </div>
-                        <div class="hora-c">
-                            Responder · Curtir · Seguir · 4 min
-                        </div>
-                    </div>
-                    <div class="c-content">
-                        <div>
-                            <div class="foto-c">
-                                <img src="pv2/img/comentarios/m/2.jpg" alt="ganando la mente">
-                            </div>
-                            <div class="nome-c">
-                                Marileide Cavalcante de Souza disse:
-                            </div>
-                            <div class="comentario-c">
-                                Minha filha me salvou depois de ter me apresentado o método de vocês... eu estava a beira de fazer uma cirurgia de catarata!!!
-                            </div>
-                        </div>
-                        <div class="hora-c">
-                            Responder · Curtir · Seguir · 5 min
-                        </div>
-                    </div>
-                    <div class="c-content">
-                        <div>
-                            <div class="foto-c">
-                                <img src="pv2/img/comentarios/4.jpg" alt="ganando la mente">
-                            </div>
-                            <div class="nome-c">
-                                Joaquim Dicesar disse:
-                            </div>
-                            <div class="comentario-c">
-                                O pior de tudo era não poder ver o rosto da minha filha, hoje não tenho mais nada, fiz exatamente tudo o que falaram e consigo ver tudo sem nenhuma cirurgia
-                            </div>
-                        </div>
-                        <div class="hora-c">
-                            Responder · Curtir · Seguir · 12 min
-                        </div>
-                    </div>
-                    <div class="c-content">
-                        <div>
-                            <div class="foto-c">
-                                <img src="pv2/img/comentarios/m/9.jpg" alt="ganando la mente">
-                            </div>
-                            <div class="nome-c">
-                                María José disse:
-                            </div>
-                            <div class="comentario-c">
-                                Já tentei de tanta coisa que não funciona, que as vezes desconfio mesmo. Será que dá certo, que vai funcionar?
-                            </div>
-                        </div>
-                        <div class="hora-c">
-                            Responder · Curtir · Seguir · 3 min
-                        </div>
-                    </div>
-                    <div class="c-content resposta">
-                        <div class="resposta-c">
-                            <div>
-                                <div class="foto-c">
-                                    <img src="pv2/img/comentarios/m/8.jpg" alt="ganando la mente">
-                                </div>
-                                <div class="nome-c">
-                                    Luana Aguiar disse:
-                                </div>
-                                <div class="comentario-c">
-                                    Amiga, eu estava quase desistindo. também tentei tanta coisa, jogando dinheiro fora, metodos que nunca funcionou e vc vai ver que funciona, vale a pena! pois hoje eu só tenho a agradecer.
-                                </div>
-                            </div>
-                            <div class="hora-c">
-                                Responder · Curtir · Seguir · 3 min
-                            </div>
-                        </div>
-                        <div class="resposta-c">
-                            <div>
-                                <div class="foto-c">
-                                    <img src="pv2/img/comentarios/10.jpg" alt="ganando la mente">
-                                </div>
-                                <div class="nome-c">
-                                    André Vargas disse:
-                                </div>
-                                <div class="comentario-c">
-                                    Comigo foi quase a mesma coisa, perdi tempo, dinheiro, noites preocupado com tudo que já tinha gasto. Mas esse Protocolo Visão Cristalina é incrivel!... continuo fazendo e não vou parar, mudou minha vida!
-                                </div>
-                            </div>
-                            <div class="hora-c">
-                                Responder · Curtir · Seguir · 3 min
-                            </div>
-                        </div>
-                        <div class="resposta-c">
-                            <div>
-                                <div class="foto-c">
-                                    <img src="pv2/img/comentarios/m/9.jpg" alt="ganando la mente">
-                                </div>
-                                <div class="nome-c">
-                                    María José disse:
-                                </div>
-                                <div class="comentario-c">
-                                    Fico mais segura em saber que vocês já fazem, vou tentar!
-                                </div>
-                            </div>
-                            <div class="hora-c">
-                                Responder · Curtir · Seguir · 3 min
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-content">
-                        <div>
-                            <div class="foto-c">
-                                <img src="pv2/img/comentarios/5.jpg" alt="ganando la mente">
-                            </div>
-                            <div class="nome-c">
-                                Hugo Brandão disse:
-                            </div>
-                            <div class="comentario-c">
-                                Comprei o método para meus pais, e eles estão conseguindo melhorar muito a visão, super indico a todos que tem esse problema também...
-                            </div>
-                        </div>
-                        <div class="hora-c">
-                            Responder · Curtir · Seguir · 19 min
-                        </div>
-                    </div>
-                    <div class="c-content">
-                        <div>
-                            <div class="foto-c">
-                                <img src="pv2/img/comentarios/m/6.jpg" alt="ganando la mente">
-                            </div>
-                            <div class="nome-c">
-                                Estefany Porfirio disse:
-                            </div>
-                            <div class="comentario-c">
-                                Ajudou muito a minha vó com problema de visão, o metodo é real e resolve
-                            </div>
-                        </div>
-                        <div class="hora-c">
-                            Responder · Curtir · Seguir · 24 min
-                        </div>
-                    </div>
-                    <div class="c-content">
-                        <div>
-                            <div class="foto-c">
-                                <img src="pv2/img/comentarios/7.jpg" alt="ganando la mente">
-                            </div>
-                            <div class="nome-c">
-                                Jhonathan Pereira disse:
-                            </div>
-                            <div class="comentario-c">
-                                Isso deveria ser compartilhado com mais pessoas, resolveu o meu problema com a visão embaçada!!! muito obrigado!!!
-                            </div>
-                        </div>
-                        <div class="hora-c">
-                            Responder · Curtir · Seguir · 26 min
-                        </div>
-                    </div>
-                    <div class="c-content">
-                        <div>
-                            <div class="foto-c">
-                                <img src="pv2/img/comentarios/m/11.jpg" alt="ganando la mente">
-                            </div>
-                            <div class="nome-c">
-                                María de Lourdes disse:
-                            </div>
-                            <div class="comentario-c">
-                                Adeussssss colírios chatos e armações caríssimas!!!!!!!!!!!!
-                            </div>
-                        </div>
-                        <div class="hora-c">
-                            Responder · Curtir · Seguir · 39 min
-                        </div>
-                    </div>
-                    <div class="c-content">
-                        <div>
-                            <div class="foto-c">
-                                <img src="pv2/img/comentarios/m/12.jpg" alt="ganando la mente">
-                            </div>
-                            <div class="nome-c">
-                                Alice do Carmo disse:
-                            </div>
-                            <div class="comentario-c">
-                                Todo dia faço o que é passado, e minha visão nunca mais ficou embaçada, posso até ficar sem óculos que nem faz mais diferença!!!
-                            </div>
-                        </div>
-                        <div class="hora-c">
-                            Responder · Curtir · Seguir · 53 min
-                        </div>
-                    </div>
-                    <div class="c-content">
-                        <div>
-                            <div class="foto-c">
-                                <img src="pv2/img/comentarios/m/13.jpg" alt="ganando la mente">
-                            </div>
-                            <div class="nome-c">
-                                Magdalena Sofía disse:
-                            </div>
-                            <div class="comentario-c">
-                                Dei inicio ontem a noite e já vejo resultado, é muito fácil eu não imaginava que seria tão bom
-                            </div>
-                        </div>
-                        <div class="hora-c">
-                            Responder · Curtir · Seguir · 55 min
-                        </div>
-                    </div>
-                    <div class="c-content">
-                        <div>
-                            <div class="foto-c">
-                                <img src="pv2/img/comentarios/m/14.jpg" alt="ganando la mente">
-                            </div>
-                            <div class="nome-c">
-                                Hiago Mateus disse:
-                            </div>
-                            <div class="comentario-c">
-                                Pessoal façam sem medo, realmente funciona e digo mais voltei a ver o rosto da minha filha!!!
-                            </div>
-                        </div>
-                        <div class="hora-c">
-                            Responder · Curtir · Seguir · 58 min
-                        </div>
-                    </div>
-                    <div class="c-content">
-                        <div>
-                            <div class="foto-c">
-                                <img src="pv2/img/comentarios/17.jpg" alt="ganando la mente">
-                            </div>
-                            <div class="nome-c">
-                                Felipe Martins disse:
-                            </div>
-                            <div class="comentario-c">
-                                Eu estava meio desconfiado mas depois dos comentários eu tentei, não me arrependo, já gastei muito mas muito mais com médicos e consultas e esse simples metodo me ajudou mais do que todos!!!
-                            </div>
-                        </div>
-                        <div class="hora-c">
-                            Responder · Curtir · Seguir · 1 h
-                        </div>
-                    </div>
-                    <div class="c-content">
-                        <div>
-                            <div class="foto-c">
-                                <img src="pv2/img/comentarios/m/18.jpg" alt="ganando la mente">
-                            </div>
-                            <div class="nome-c">
-                                Ana Catarina disse:
-                            </div>
-                            <div class="comentario-c">
-                                Já conhecia mas tinha muito medo de ser golpe, mas se eu soubesse antes que funcionava de verdade eu pagaria o que fosse preciso!! Confimo pra vocês pessoal, podem confiar!!
-                            </div>
-                        </div>
-                        <div class="hora-c">
-                            Responder · Curtir · Seguir · 1 h
-                        </div>
-                    </div>
-                    <div class="c-content">
-                        <div>
-                            <div class="foto-c">
-                                <img src="pv2/img/comentarios/m/20.jpg" alt="ganando la mente">
-                            </div>
-                            <div class="nome-c">
-                                Marinalva Lins disse:
-                            </div>
-                            <div class="comentario-c">
-                                A pior coisa é perder a fé em solucionar problemas da vida pessoal, mas depois de conhecer esse programa Só posso agradecer! Vocês são demais!!!
-                            </div>
-                        </div>
-                        <div class="hora-c">
-                            Responder · Curtir · Seguir · 1 h
-                        </div>
-                    </div>
-                    <div class="c-content">
-                        <div>
-                            <div class="foto-c">
-                                <img src="pv2/img/comentarios/14.jpg" alt="ganando la mente">
-                            </div>
-                            <div class="nome-c">
-                                Igor Requião disse:
-                            </div>
-                            <div class="comentario-c">
-                                Me sinto uma pessoa nova hoje mt obrigado
-                            </div>
-                        </div>
-                        <div class="hora-c">
-                            Responder · Curtir · Seguir · 1 h
-                        </div>
-                    </div>
-                    <div class="c-content">
-                        <div>
-                            <div class="foto-c">
-                                <img src="pv2/img/comentarios/m/21.jpg" alt="ganando la mente">
-                            </div>
-                            <div class="nome-c">
-                                Graziele Bastos disse:
-                            </div>
-                            <div class="comentario-c">
-                                Comprei o programa e ponho em prática sempree. e logo vou participar da festa de aniversário da minha filha, vou levar ela de carro sem medo. Obrigado!
-                            </div>
-                        </div>
-                        <div class="hora-c">
-                            Responder · Curtir · Seguir · 1 h
-                        </div>
-                    </div>
-                    <div class="c-content resposta">
-                        <div class="resposta-c">
-                            <div>
-                                <div class="foto-c">
-                                    <img src="pv2/img/comentarios/23.jpg" alt="ganando la mente">
-                                </div>
-                                <div class="nome-c">
-                                    Breno Cardoso disse:
-                                </div>
-                                <div class="comentario-c">
-                                    Funciona msmo?
-                                </div>
-                            </div>
-                            <div class="hora-c">
-                                Responder · Curtir · Seguir · 46 min
-                            </div>
-                        </div>
-                        <div class="resposta-c">
-                            <div>
-                                <div class="foto-c">
-                                    <img src="pv2/img/comentarios/m/21.jpg" alt="ganando la mente">
-                                </div>
-                                <div class="nome-c">
-                                    Graziele Bastos disse:
-                                </div>
-                                <div class="comentario-c">
-                                    Fiz tudo que o programa manda e é sensacional! Tô me sentindo outra pessoa agora, enxergando tudo literalmente!
-                                </div>
-                            </div>
-                            <div class="hora-c">
-                                Responder · Curtir · Seguir · 46 min
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row face-c">
-                <div clas="col">
-                    <img src="pv2/img/face-icon.png"> Plugin social de Facebook
-                </div>
-            </div>
-        </div>
-        <img src="pv2/img/c1.png" alt="nome do produto" data-enllax-ratio=".9" data-enllax-type="foreground"
-            style="z-index: -99" class="c1">
-        <img src="pv2/img/c2.png" alt="nome do produto" data-enllax-ratio=".5" data-enllax-type="foreground"
-            style="z-index:-99" class="c2">
-        <img src="pv2/img/c3.png" alt="nome do produto" data-enllax-ratio=".4" data-enllax-type="foreground"
-            style="z-index:-99" class="c3">
-        <img src="pv2/img/c4.png" alt="nome do produto" data-enllax-ratio=".7" data-enllax-type="foreground"
-            style="z-index:-99" class="c4">
-        <img src="pv2/img/c5.png" alt="nome do produto" data-enllax-ratio=".3" data-enllax-type="foreground"
-            style="z-index:-99" class="c5">
-        <img src="pv2/img/c6.png" alt="nome do produto" data-enllax-ratio=".9" data-enllax-type="foreground"
-            style="z-index:-99" class="c6">
-        <div class="parallax-window" data-parallax="scroll" data-image-src="pv2/img/bg-top.png"></div>
-    </section>
-    <section class="button" id="button_chechout_final">
-        <div class="container">
-            <div class="row button_container text-center">
-                <div class="col">
-                    <button type="button" data-ripple-color="#fff" class="btn material-ripple" data-animation="
-              ripple" onclick="redirect()">Quero ter acesso ao Protocolo Visão Cristalina</button>
-                    <div>
-                        <ul class="bandeiras">
-                            <li><img src="pv2/img/mastercard.png"></li>
-                            <li><img src="pv2/img/paypal.png"></li>
-                            <li><img src="pv2/img/visa.png"></li>
-                            <li><img src="pv2/img/american.png"></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-md-6 pirataria">
-                    <h3>A pirataria é um <b>CRIME</b></h3>
-                     A venda do Protocolo Visão Cristalina só pode ser feita através deste site. Qualquer outro
-                     site onde você encontra este programa é FALSO e ilegal. Evite falsificações e rejeite
-                     conteúdo ilegal ou pirata. NÃO compre programas semelhantes que não sejam baseados em anos de estudo empsicologia comportamental. Não nos responsabilizamos por compras feitas em outros sites.
-                </div>
-                <div class="col-xs-12 col-md-6">
-                    <div class="row cpy mb-0 mt-0">
-                        <div class="col text-center">
-                            <img src="pv2/img/logo.png" height="68" alt="">
-                            <p class="mb-0">Copyright 2020 - Protocolo Visão Cristalina ® <br>
-                                Todos os direitos reservados.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row links">
-                        <div class="col text-center">
-                            <a href="#" class="text-white" target="_blank">termos de Uso</a>
-                            <a href="#" class="text-white" target="_blank">Política de Privacidade</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-6 text-center" style="font-size: 11px; padding: 40px 0px 20px 0px; color: #b7adad;">
-                    <b>Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook. </b>Uma vez
-                     sair do Facebook, a responsabilidade não é deles, mas do nosso site. nós fazemos tudo
-                     possível indicar e exibir claramente todos os testes de produtos e resultados de uso
-                     real. Não vendemos seu e-mail ou qualquer informação a terceiros. nós nunca fazemos nenhum
-                     tipo de spam.
-                </div>
-                <div class="col-md-6 text-center" style="font-size: 11px; padding: 40px 0px 20px 0px; color: #b7adad;">
-                    Este produto não substitui o aconselhamento profissional. Consulte sempre um profissional
-                     saúde para assuntos relacionados com a saúde.
-                     <br>
-                     Atenção: Este produto é digital, o que significa que será enviado por e-mail e
-                     WhatsApp, não fisicamente.
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="jquery-3.4.1.js"></script>
-    <script src="npm/popper_js_1.16.0/dist/umd/popper.min.js"></script>
-    <script src="bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script src="ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js"></script>
-    <script src="https://ssl.geoplugin.net/javascript.gp?k=292af9fb00c1353d" type="text/javascript"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            if (jQuery(window).width() > 480) {
-                $('.hero').parallax({
-                    imageSrc: 'pv2/img/bg1.jpg',
-                    naturalWidth: 600,
-                    naturalHeight: 400
-                });
-            }
-            setTimeout(function() {
-                $('#button_chechout_hero').show();
-                $('#button_chechout_final').show();
-            }, 915000);
-        });
-        var scrollEventHandler = function() {
-            window.scroll(0, window.pageYOffset)
-        }
-        window.addEventListener("scroll", scrollEventHandler, false);
-        document.getElementById("locationJS").innerHTML = geoplugin_city();
-        function redirect() {
-            location.href = "https://pay.kiwify.com.br/G9iHI2b"+src;
-        }
+    
+    <!-- Meta Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '614561236343528');
+      fbq('track', 'PageView');
     </script>
-    <script src="pv2/js/scripts2.js"></script>
-    <script src="pv2/js/jquery.enllax.min.js"></script>
-    <script src="pv2/js/parallax.js"></script>
-</body>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=614561236343528&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+    
+  </head>
+  <body>
+    
+    <header class="py-4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <!-- Imagem Ultrasecreto -->
+            <img class="img-fluid" src="./assets/img/ultrasecreto.svg">
 
+            <!-- Headline -->
+            <h3 class="my-4"><b></b></h3>
+
+            <!-- VSL -->
+            <script type="text/javascript" id="scr_62b5d482072e14000a1d3ffb">var s=document.createElement("script");s.src="https://scripts.converteai.net/a5be3ce2-68c5-4cec-af81-04414f0838b8/players/62b5d482072e14000a1d3ffb/player.js",s.async=!0,document.head.appendChild(s);</script>
+
+            <!-- Botão 1 -->
+            <div id="cta1" class="mt-4 d-none">
+              <a href="https://pay.kiwify.com.br/G9iHI2b" class="a-btn" style="text-decoration: none;">
+                <span class="span-btn">QUERO TER ACESSO AO PROTOCOLO CORREÇÃO DA VISÃO</span>
+                <span class="span-btn2">(atenção: vagas limitadas)</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="comments py-4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="fb-comments" style="margin-top: 5px;">
+              <div class="fb-comments-header">
+                <span>21 comentários</span>
+              </div>
+              <div class="fb-comments-wrapper" id="2">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img
+                          src="./assets/img/comentarios/m2.jpeg"></td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Paula Santos</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text">Ainda bem que eu vi o vídeo até o final, já estou tomando há 2 semanas e estou enxergando tudo! É incrível, gente, super recomendo 😘</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Curtir</like>
+                        ·
+                        <reply>Responder</reply>
+                        ·
+                        <likes>8</likes>
+                        
+                        <date>4 min</date>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="fb-comments-wrapper" id="3">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img
+                          src="./assets/img/comentarios/m3.jpeg"></td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Marta Medeiros</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text">Essa receita é maravilhosa, tinha medo de dirigir porque não enxergava muito bem, agora com 54 anos estou dirigindo todos os dias e enxergando tudo, é incrível!</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Curtir</like>
+                        ·
+                        <reply>Responder</reply>
+                        ·
+                        <likes>9</likes>
+                        
+                        <date>5 min</date>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="fb-comments-wrapper" id="4">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img
+                          src="./assets/img/comentarios/m4.jpeg"></td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Lucia Barros</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text">Obrigado, Gustavo! Essa sua receita mudou a minha vida por completo, nunca enxerguei tão bem quanto hoje em dia e tudo isso graças a esse método incrível! Obrigado por compartilhar</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Curtir</like>
+                        ·
+                        <reply>Responder</reply>
+                        ·
+                        <likes>11</likes>
+                        
+                        <date>12 min</date>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="fb-comments-wrapper" id="5">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img
+                          src="./assets/img/comentarios/m5.jpeg"></td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Alessandra Ramos</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text">Estou tomando e já no primeiro dia você já nota as coisas ficando mais claras, até deixei de usar os meus óculos, rs. Antes eu não vivia sem óculos, tudo que eu tinha que ler ou fazer, tinha que ir lá buscar o bendito dos óculos... Muito obrigado, Gustavo! Me ajudou muitíssimo!</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Curtir</like>
+                        ·
+                        <reply>Responder</reply>
+                        ·
+                        <likes>15</likes>
+                        
+                        <date>19 min</date>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="fb-comments-wrapper" id="6">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img
+                          src="./assets/img/comentarios/m6.jpeg"></td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Laura Monteiro</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text">Estou encantanda com essa receita milagrosa, ´me disseram que no meu caso somente com cirurgia e agora estou enxergando tudo sem cirurgia, sem óculos e o mais importante com os meus próprios olhos, só vocês provando para verem, super recomendo!!! 😘😘😘</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Curtir</like>
+                        ·
+                        <reply>Responder</reply>
+                        ·
+                        <likes>17</likes>
+                        
+                        <date>24 min</date>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="fb-comments-wrapper" id="7">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img
+                          src="./assets/img/comentarios/m7.jpeg"></td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Ana Oliveira</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text">Realmente funciona, eu diminuí 2,5 graus só com essa receita e antes toda vez que ía no médico, ele só aumentava o meu grau... Confesso que nunca tive muito cuidado com a minha visão, mas agora ela tá perfeita, enxergando do mesmo jeito de quando eu tinha 15 anos 🥰</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Curtir</like>
+                        ·
+                        <reply>Responder</reply>
+                        ·
+                        <likes>18</likes>
+                        
+                        <date>26 min</date>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="fb-comments-wrapper" id="9">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img
+                          src="./assets/img/comentarios/m11.jpeg">
+                      </td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Sofía Soares</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text">Realmente funciona, estou tomando e enxergando tudo agora, super recomendo!</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Curtir</like>
+                        ·
+                        <reply>Responder</reply>
+                        ·
+                        <likes>22</likes>
+                        
+                        <date>39 min</date>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <button class="fb-comments-loadmore" onclick="javascript:loadMore();">Carregar mais 5 comentários</button>
+              <div style="display:none" id="more">
+                <div class="fb-comments-wrapper">
+                  <table class="fb-comments-comment" id="10">
+                    <tbody>
+                      <tr>
+                        <td rowspan="3" class="fb-comments-comment-img"><img
+                            src="./assets/img/comentarios/m12.jpeg">
+                        </td>
+                        <td>
+                          <font class="fb-comments-comment-name">
+                            <name>Jéssica Molina</name>
+                          </font>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-text">Maravilhoso, faz só 7 dias que comecei a tomar e a minha visão já está muito mais nítida, estou muito feliz com os resultados. Obrigada, Gustavo! 😍😍😍</td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-actions">
+                          <like>Curtir</like>
+                          ·
+                          <reply>Responder</reply>
+                          ·
+                          <likes>41</likes>
+                          
+                          <date>1 h</date>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="fb-comments-wrapper" id="11">
+                  <table class="fb-comments-comment">
+                    <tbody>
+                      <tr>
+                        <td rowspan="3" class="fb-comments-comment-img"><img
+                            src="./assets/img/comentarios/m15.jpeg">
+                        </td>
+                        <td>
+                          <font class="fb-comments-comment-name">
+                            <name>Curtir</name>
+                          </font>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-text">Estou tomando há 3 semanas, é incrível como fica tudo muito mais nítido e você automaticamente deixa de usar óculos, pode até esquecer o óculos em casa que não tem problema. Graças a Deus encontrei esse método milagroso 🙏🙏🙏🙏🙏🙏</td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-actions">
+                          <like>Curtir</like>
+                          ·
+                          <reply>Responder</reply>
+                          ·
+                          <likes>40</likes>
+                          
+                          <date>1 h</date>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="fb-comments-wrapper" id="12">
+                  <table class="fb-comments-comment">
+                    <tbody>
+                      <tr>
+                        <td rowspan="3" class="fb-comments-comment-img"><img
+                            src="./assets/img/comentarios/m16.jpeg">
+                        </td>
+                        <td>
+                          <font class="fb-comments-comment-name">
+                            <name>Daniela Ferreira</name>
+                          </font>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-text">No início não acreditava muito, mas hoje em dia que estou enxergando tudo muito mais nítido, as cores, os números, tudo ficou muito mais claro agora. Só tenho a agradecer ao Gustavo e toda sua equipe! 🌹🥰🙋</td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-actions">
+                          <like>Curtir</like>
+                          ·
+                          <reply>Responder</reply>
+                          ·
+                          <likes>47</likes>
+                          
+                          <date>1 h</date>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="fb-comments-wrapper" id="13">
+                  <table class="fb-comments-comment">
+                    <tbody>
+                      <tr>
+                        <td rowspan="3" class="fb-comments-comment-img"><img
+                            src="./assets/img/comentarios/m17.jpeg"></td>
+                        <td>
+                          <font class="fb-comments-comment-name">
+                            <name>Alessandra Torres</name>
+                          </font>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-text">Estava usando óculos desde os meus 30 anos, hoje com 45 anos já não preciso mais, sou muito grata por ter encontrado esse método incrível! </td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-actions">
+                          <like>Curtir</like>
+                          ·
+                          <reply>Responder</reply>
+                          ·
+                          <likes>50</likes>
+                          
+                          <date>1 h</date>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="fb-comments-wrapper">
+                  <table class="fb-comments-comment" id="14">
+                    <tbody>
+                      <tr>
+                        <td rowspan="3" class="fb-comments-comment-img"><img
+                            src="./assets/img/comentarios/m18.jpeg">
+                        </td>
+                        <td>
+                          <font class="fb-comments-comment-name">
+                            <name>Julia Bustamante</name>
+                          </font>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-text">Decidi começar... Meu esposo já tinha provado e deixou de usar óculos em menos de 1 mês!!</td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-actions">
+                          <like>Curtir</like>
+                          ·
+                          <reply>Responder</reply>
+                          ·
+                          <likes>66</likes>
+                          
+                          <date>1 h</date>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <!-- Botão 2 -->
+            <div id="cta2" class="mt-4 d-none">
+              <a href="https://pay.kiwify.com.br/G9iHI2b" class="a-btn" style="text-decoration: none;">
+                <span class="span-btn">QUERO TER ACESSO AO PROTOCOLO CORREÇÃO DA VISÃO</span>
+                <span class="span-btn2">(atenção: vagas limitadas)</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark py-3 text-center">
+      <div class="text-white"><p>“Este produto não tem nenhuma relação institucional com o Facebook, Instagram, WahtsApp ou Facebook Messenger. A informação disponível neste site é estritamente jornalística, não substituindo o parecer médico profissional. Sempre consulte o seu médico sobre qualquer assunto relativo à sua saúde e aos seus tratamentos e medicamentos. Ao bordar questões financeiras de qualquer um de nossos produtos, sites, vídeos, palestras programas ou outros conteúdos, fazemos todos os esforços para garantir que estes representem fielmente nossos cursos e sua capacidade de melhorar sua vida. No entanto, IMAGENS MERAMENTE ILUSTRATIVAS."</p><a href="termos.html" class="text-white">Termos de uso</a> | <a href="privacidade.html" class="text-white">Política de privacidade</a></div>
+    </footer>
+
+    <script type="text/javascript">
+      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none")}, 915000); // temporização da Call to Action (em milissegundos)
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="./assets/js/com.js"></script>
+  </body>
 </html>
